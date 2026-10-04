@@ -1,0 +1,1 @@
+export function Brand({compact=false}:{compact?:boolean}) {return <div className="brand"><img className="brand-crest" src="/school-logo.png" alt="Indian School Al Ghubra crest"/><div className="brand-text"><strong>ISG Smart Library</strong>{!compact&&<span>Indian School Al Ghubra</span>}</div></div>}
